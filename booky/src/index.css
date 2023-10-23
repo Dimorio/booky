@@ -1,0 +1,23 @@
+@media (max-width: 767px) {
+  .header::before {
+    display: none;
+  }
+  .header {
+    position: relative;
+    height: 250px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/02.jpg);
+    object-fit: cover;
+    background-position: center;
+  }
+  .row-2 img {
+    display: none;
+  }
+  .row-1 {
+    display: none;
+  }
+
+  .row-2 {
+    right: 10px;
+  }
+}
